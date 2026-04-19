@@ -75,3 +75,24 @@ footer {
     padding: 15px;
     margin-top: 20px;
 }
+.box {
+    width: 300px;                 /* width requirement */
+    height: 150px;                /* height requirement */
+
+    background-color: #929D70;    /* palette color */
+
+    border: 3px solid #526047;    /* border requirement */
+
+    padding: 20px;                /* padding requirement */
+
+    margin: 30px auto;            /* margin requirement + centers box */
+
+    text-align: center;           /* centers text inside */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-weight: bold;
+}
